@@ -55,4 +55,9 @@ dependencies {
     debugImplementation libs.androidx.compose.ui.tooling
     debugImplementation libs.androidx.compose.ui.test.manifest
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0") // Or the latest version
+    implementation("io.ktor:ktor-client-core:2.3.12") // Or the latest version
+    implementation("io.ktor:ktor-client-android:2.3.12") // For Android-specific engine
+    implementation("io.ktor:ktor-client-content-negotiation:2.3.12") // For JSON parsing
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.12") // Ktor adapter for kotlinx.serialization
+
 }
